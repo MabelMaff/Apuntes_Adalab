@@ -1,3 +1,6 @@
+Aquí tienes el documento Markdown completo, incluyendo las medidas categóricas y los gráficos generados:
+
+```markdown
 # 📊 **ESTADÍSTICA DESCRIPTIVA** 📊
 
 Es la recopilación, resumen, organización y presentación de datos.
@@ -124,7 +127,7 @@ En este gráfico, ambas variables aumentan juntas. Un ejemplo podría ser:
 - **Variable X:** Horas de estudio.
 - **Variable Y:** Puntuación en un examen.
 
-![Relación Positiva](https://via.placeholder.com/400x300.png?text=Relaci%C3%B3n+Positiva)
+![Relación Positiva](relaciones.png)
 
 #### ❌ **Relación Negativa** ❌
 
@@ -132,7 +135,7 @@ En este gráfico, una variable aumenta mientras la otra disminuye. Un ejemplo po
 - **Variable X:** Cantidad de cigarrillos fumados por día.
 - **Variable Y:** Capacidad pulmonar.
 
-![Relación Negativa](https://via.placeholder.com/400x300.png?text=Relaci%C3%B3n+Negativa)
+![Relación Negativa](relaciones.png)
 
 #### 🔄 **Relación Débil** 🔄
 
@@ -140,4 +143,12 @@ En este gráfico, no hay una relación clara entre las variables. Un ejemplo pod
 - **Variable X:** Número de zapatos en el armario.
 - **Variable Y:** Tiempo dedicado a ver televisión por día.
 
-![Relación Débil](https://via.placeholder.com/400x300.png?text=Rel
+![Relación Débil](relaciones.png)
+
+#### 📏 **Sin Correlación** 📏
+
+En este gráfico, no hay una relación significativa entre las variables. Un ejemplo podría ser:
+- **Variable X:** Tamaño del pie.
+- **Variable Y:** Nivel de inteligencia.
+
+![Sin Correlación](relaciones.png
