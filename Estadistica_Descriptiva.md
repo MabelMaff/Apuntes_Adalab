@@ -1,6 +1,3 @@
-Aquí tienes el documento Markdown completo, incluyendo las medidas categóricas y los gráficos generados:
-
-```markdown
 # 📊 **ESTADÍSTICA DESCRIPTIVA** 📊
 
 Es la recopilación, resumen, organización y presentación de datos.
