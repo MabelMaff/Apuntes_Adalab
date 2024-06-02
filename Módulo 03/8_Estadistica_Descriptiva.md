@@ -211,5 +211,95 @@ Responden a la necesidad de comparar datos entre sí de manera proporcional. Est
 - **Deciles:** 📉  
   Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de observaciones.
 
+  _ _ _
+
+## 🗺️ **Ejemplo de una Gráfica Tipo Matriz (Heatmap)** 🗺️
+
+Un heatmap (mapa de calor) es una visualización que muestra la correlación entre múltiples variables en forma de una matriz de colores. Cada celda en la matriz representa el valor de la correlación entre dos variables, donde los colores más oscuros indican una correlación más fuerte (positiva o negativa) y los colores más claros indican una correlación más débil.
+
+### 🔥 **Pasos para Crear un Heatmap** 🔥
+
+1. **Preparar los datos:** 📝  
+   Asegúrate de tener un DataFrame con las variables numéricas que quieres analizar.
+
+2. **Calcular la matriz de correlación:** 📏  
+   Utiliza la función `corr()` de pandas para calcular la matriz de correlación entre las variables.
+
+3. **Crear el heatmap:** 🌡️  
+   Utiliza la librería `seaborn` para crear el heatmap basado en la matriz de correlación.
+
+### 📈 **Ejemplo de Código para la Creación de un Heatmap** 📈
+
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Cargar los datos en un DataFrame
+data = {
+    'Variable_A': [1, 2, 3, 4, 5],
+    'Variable_B': [5, 4, 3, 2, 1],
+    'Variable_C': [2, 3, 4, 5, 6],
+    'Variable_D': [6, 5, 4, 3, 2]
+}
+df = pd.DataFrame(data)
+
+# Calcular la matriz de correlación
+corr_matrix = df.corr()
+
+# Crear el heatmap
+plt.figure(figsize=(8, 6))
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+plt.title('Matriz de Correlación')
+plt.show()
+```
+
+### 🔍 **Explicación del Código** 🔍
+
+1. **Importar librerías:** 📚  
+   Importamos pandas para manejar los datos, seaborn para crear el heatmap y matplotlib para mostrar la gráfica.
+
+2. **Cargar los datos en un DataFrame:** 📝  
+   Creamos un DataFrame con algunas variables de ejemplo.
+
+3. **Calcular la matriz de correlación:** 📏  
+   Utilizamos `df.corr()` para calcular la matriz de correlación entre las variables del DataFrame.
+
+4. **Crear el heatmap:** 🌡️  
+   Utilizamos `sns.heatmap()` para crear el heatmap basado en la matriz de correlación. Los parámetros incluyen:
+   - `corr_matrix`: La matriz de correlación calculada.
+   - `annot=True`: Añade los valores numéricos de correlación en cada celda.
+   - `cmap='coolwarm'`: Define el mapa de colores para el heatmap.
+   - `linewidths=0.5`: Añade líneas entre las celdas para mejor visualización.
+   - `plt.title('Matriz de Correlación')`: Añade un título a la gráfica.
+
+### 🔍 **Interpretación del Heatmap** 🔍
+
+- **Colores:** 🌈  
+  Los colores en el heatmap representan la fuerza y dirección de las correlaciones:
+  - **Rojo oscuro:** Correlación positiva fuerte.
+  - **Azul oscuro:** Correlación negativa fuerte.
+  - **Blanco o colores claros:** Correlación débil o inexistente.
+
+- **Valores Numéricos:** 🔢  
+  Los valores en cada celda indican el coeficiente de correlación entre las variables correspondientes:
+  - **1.0 o -1.0:** Correlación perfecta positiva o negativa.
+  - **0:** No hay correlación.
+
+### 📊 **Visualización del Ejemplo** 📊
+
+En este ejemplo, los datos hipotéticos nos muestran diferentes correlaciones entre las variables:
+
+- **Variable_A y Variable_B:** Tienen una correlación negativa perfecta (-1.0).
+- **Variable_A y Variable_C:** Tienen una correlación positiva moderada.
+- **Variable_C y Variable_D:** Tienen una correlación negativa.
+
+### 🗺️ **Gráfica de Ejemplo** 🗺️
+
+![Heatmap]()
+
+Este heatmap ayuda a visualizar y entender rápidamente las relaciones entre las diferentes variables del conjunto de datos.
+
+
 
 
