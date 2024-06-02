@@ -2,6 +2,8 @@
 
 Es la recopilación, resumen, organización y presentación de datos.
 
+_ _ _
+
 ## ⭐ **Medidas de Centralización** ⭐
 
 Responden a la necesidad de entender el punto central o típico en un conjunto de datos. Estas medidas permiten identificar el valor alrededor del cual los datos tienden a agruparse. Aquí están las principales preguntas que responden las medidas de centralización:
