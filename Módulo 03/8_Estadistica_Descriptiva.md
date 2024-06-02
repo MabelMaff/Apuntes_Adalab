@@ -154,6 +154,8 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable X:** Tamaño del pie.
 - **Variable Y:** Nivel de inteligencia.
 
+![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+
 _ _ _
 
 ## 🏷️ **Medidas Categóricas** 🏷️
@@ -209,7 +211,5 @@ Responden a la necesidad de comparar datos entre sí de manera proporcional. Est
 - **Deciles:** 📉  
   Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de observaciones.
 
-Espero que esto cumpla con tus expectativas y se ajuste a la estructura deseada.
-![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
 
 
