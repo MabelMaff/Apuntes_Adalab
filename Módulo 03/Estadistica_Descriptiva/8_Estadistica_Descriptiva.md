@@ -68,7 +68,7 @@ Responden a la necesidad de entender el punto central o típico en un conjunto d
 - **Moda:** 🥇  
   Es el valor que ocurre con mayor frecuencia en el conjunto de datos. Un conjunto de datos puede tener más de una moda (bimodal o multimodal) si varios valores tienen la misma frecuencia máxima.
 
-[Medidas de Centralización - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyter/modulo-3-leccion-08-01-medidas-centralizacion.ipynb)
+[Medidas de Centralización - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-01-medidas-centralizacion.ipynb)
 
 _ _ _
 
