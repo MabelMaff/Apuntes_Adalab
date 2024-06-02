@@ -148,6 +148,60 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable X:** Tamaño del pie.
 - **Variable Y:** Nivel de inteligencia.
 
+Claro, aquí tienes la sección actualizada con las medidas categóricas y relativas:
+
+## 🏷️ **Medidas Categóricas** 🏷️
+
+Responden a la necesidad de entender y resumir datos que se clasifican en categorías. Estas medidas permiten analizar la frecuencia y distribución de las categorías en un conjunto de datos. Aquí están las principales preguntas que responden las medidas categóricas:
+
+1. **¿Cuántos datos pertenecen a cada categoría?** 📊  
+   Indican la frecuencia de cada categoría, lo que ayuda a entender la distribución de los datos en diferentes grupos.
+
+2. **¿Cuál es la categoría más frecuente?** 🥇  
+   Permiten identificar la categoría que aparece con mayor frecuencia, proporcionando información sobre la moda en datos categóricos.
+
+3. **¿Cómo se distribuyen los datos en diferentes categorías?** 🌍  
+   Ayudan a visualizar y comprender la proporción de datos en cada categoría, facilitando comparaciones entre diferentes grupos.
+
+### 📶 **Tipos** 📶
+
+- **Frecuencia Absoluta:** 📈  
+  Es el número de veces que aparece cada categoría en el conjunto de datos. Permite conocer el conteo exacto de cada categoría.
+
+- **Frecuencia Relativa:** 🔢  
+  Es la proporción de veces que aparece cada categoría respecto al total de datos. Se calcula dividiendo la frecuencia absoluta de una categoría por el número total de observaciones.
+
+- **Tabla de Frecuencias Cruzadas:** 📊  
+  Es una tabla que muestra la frecuencia con la que ocurren combinaciones de categorías de dos variables. Es útil para analizar la relación entre dos variables categóricas.
+
+- **Moda:** 🥇  
+  Es el valor que ocurre con mayor frecuencia en un conjunto de datos. En datos categóricos, la moda es la categoría más común.
+
+## 📊 **Medidas Relativas** 📊
+
+Responden a la necesidad de comparar datos entre sí de manera proporcional. Estas medidas permiten evaluar datos en términos relativos, facilitando comparaciones y análisis más precisos. Aquí están las principales preguntas que responden las medidas relativas:
+
+1. **¿Cuál es la relación entre dos valores?** 📏  
+   Permiten comparar dos valores para entender su relación proporcional, como ratios o índices.
+
+2. **¿Qué porcentaje del total representa un valor?** 💯  
+   Ayudan a calcular qué proporción de un total representa un valor específico, proporcionando información sobre su importancia relativa.
+
+3. **¿Cómo se comparan los datos en diferentes contextos?** 🌐  
+   Facilitan la comparación de datos en diferentes contextos o grupos, utilizando proporciones o tasas para estandarizar los resultados.
+
+### 📶 **Tipos** 📶
+
+- **Percentiles:** 📊  
+  Dividen un conjunto de datos ordenados en 100 partes iguales. Cada percentil indica el valor por debajo del cual se encuentra un cierto porcentaje de observaciones.
+
+- **Cuartiles:** 🔢  
+  Dividen un conjunto de datos ordenados en cuatro partes iguales. El primer cuartil (Q1) es el valor que separa el 25% inferior del resto, el segundo cuartil (Q2) es la mediana, y el tercer cuartil (Q3) separa el 75% inferior del 25% superior.
+
+- **Deciles:** 📉  
+  Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de observaciones.
+
+Espero que esto cumpla con tus expectativas y se ajuste a la estructura deseada.
 ![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
 
 
