@@ -1,4 +1,4 @@
-# 📊 **ESTADÍSTICA DESCRIPTIVA** 📊
+# 🎰 **ESTADÍSTICA DESCRIPTIVA** 🎰
 
 Es la recopilación, resumen, organización y presentación de datos.
 
@@ -15,7 +15,7 @@ Responden a la necesidad de entender el punto central o típico en un conjunto d
 3. **¿Cuál es el valor más frecuente en los datos?** 🔄  
    Permiten identificar el valor que aparece con mayor frecuencia, lo que puede ser útil para entender el comportamiento típico en el conjunto de datos.
 
-### 🔍 **Tipos** 🔍
+### 📶 **Tipos** 📶
 
 - **Media (promedio):** 🧮  
   Es la suma de todos los valores dividida por el número total de valores. Proporciona un valor central, pero puede verse afectada por valores extremos (outliers).
@@ -42,7 +42,7 @@ Responden a la necesidad de entender cómo se distribuyen los datos alrededor de
 4. **¿Cuál es la extensión total de los datos?** 🌐  
    Responden a la amplitud de los datos, es decir, la diferencia entre el valor más alto y el valor más bajo.
 
-### 📏 **Tipos** 📏
+### 📶 **Tipos** 📶
 
 - **Rango:** 📏  
   Es la diferencia entre el valor más alto y el valor más bajo en un conjunto de datos. Te dice cuánto varían los datos.
@@ -76,10 +76,10 @@ Responden a la necesidad de entender la relación entre dos variables. Aquí est
 
 **Entre qué valores pueden tomar esas relaciones: -1 y 1.**
 
-- **Relación -1:** ❌ Indica una relación inversa (una variable sube mientras la otra baja).
-- **Relación 1:** ✅ Indica que ambas variables van en el mismo sentido (una sube y la otra también).
+- **Relación -1:** ➖ Indica una relación inversa (una variable sube mientras la otra baja).
+- **Relación 1:** ➕ Indica que ambas variables van en el mismo sentido (una sube y la otra también).
 
-### 🔍 **Tipos** 🔍
+### 📶 **Tipos** 📶
 
 #### 📏 **Coeficiente de Correlación de Pearson** 📏
 
@@ -116,7 +116,7 @@ Responden a la necesidad de entender la relación entre dos variables. Aquí est
   - Un valor negativo indica que una variable tiende a aumentar mientras la otra disminuye.
 - **Uso:** Aunque no es una medida estandarizada, es la base para calcular el coeficiente de correlación de Pearson.
 
-### 📊 **Tipos de Relaciones** 📊
+### 📶 **Tipos** 📶
 
 #### ✅ **Relación Positiva** ✅
 
@@ -134,7 +134,7 @@ En este gráfico, una variable aumenta mientras la otra disminuye. Un ejemplo po
 
 ![Relación Negativa](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
 
-#### 🔄 **Relación Débil** 🔄
+#### ⤵ **Relación Débil** ⤵
 
 En este gráfico, no hay una relación clara entre las variables. Un ejemplo podría ser:
 - **Variable X:** Número de zapatos en el armario.
@@ -149,3 +149,5 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable Y:** Nivel de inteligencia.
 
 ![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+
+
