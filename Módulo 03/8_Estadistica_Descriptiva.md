@@ -296,7 +296,7 @@ En este ejemplo, los datos hipotéticos nos muestran diferentes correlaciones en
 
 ### 🗺️ **Gráfica de Ejemplo** 🗺️
 
-![Heatmap]()
+![Heatmap](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/heatmap.png)
 
 Este heatmap ayuda a visualizar y entender rápidamente las relaciones entre las diferentes variables del conjunto de datos.
 
