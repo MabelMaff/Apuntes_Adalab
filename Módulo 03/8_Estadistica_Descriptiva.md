@@ -28,6 +28,8 @@ Responden a la necesidad de entender el punto central o típico en un conjunto d
 - **Moda:** 🥇  
   Es el valor que ocurre con mayor frecuencia en el conjunto de datos. Un conjunto de datos puede tener más de una moda (bimodal o multimodal) si varios valores tienen la misma frecuencia máxima.
 
+  _ _ _
+
 ## 🔍 **Medidas de Dispersión** 🔍
 
 Responden a la necesidad de entender cómo se distribuyen los datos alrededor de un valor central (como la media) en un conjunto de datos. En otras palabras, nos dicen qué tan extendidos o agrupados están los datos. Aquí están las principales preguntas que responden las medidas de dispersión:
@@ -59,6 +61,8 @@ Responden a la necesidad de entender cómo se distribuyen los datos alrededor de
   
 - **Desviación estándar:** 📊  
   Es una medida que indica cuánto varían los datos respecto a la media. Una desviación estándar alta significa que los datos están muy dispersos, mientras que una baja indica que están más agrupados cerca de la media. Es la raíz cuadrada de la varianza.
+
+  _ _ _
 
 ## 🔗 **Medidas de Correlación** 🔗
 
@@ -118,7 +122,7 @@ Responden a la necesidad de entender la relación entre dos variables. Aquí est
   - Un valor negativo indica que una variable tiende a aumentar mientras la otra disminuye.
 - **Uso:** Aunque no es una medida estandarizada, es la base para calcular el coeficiente de correlación de Pearson.
 
-### 📶 **Tipos** 📶
+### 📶 **Tipos de Relación** 📶
 
 #### ✅ **Relación Positiva** ✅
 
@@ -150,7 +154,7 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable X:** Tamaño del pie.
 - **Variable Y:** Nivel de inteligencia.
 
-Claro, aquí tienes la sección actualizada con las medidas categóricas y relativas:
+_ _ _
 
 ## 🏷️ **Medidas Categóricas** 🏷️
 
@@ -178,6 +182,8 @@ Responden a la necesidad de entender y resumir datos que se clasifican en catego
 
 - **Moda:** 🥇  
   Es el valor que ocurre con mayor frecuencia en un conjunto de datos. En datos categóricos, la moda es la categoría más común.
+
+  _ _ _
 
 ## 📊 **Medidas Relativas** 📊
 
