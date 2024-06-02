@@ -2,7 +2,47 @@
 
 Es la recopilación, resumen, organización y presentación de datos.
 
-_ _ _
+## ¿Qué es la estadística descriptiva?
+
+La estadística descriptiva es una rama de la estadística que se centra en la recopilación, organización, resumen y presentación de datos de manera informativa y comprensible. Su objetivo principal es describir y resumir características esenciales de un conjunto de datos, lo que permite obtener una comprensión inicial y visual de la información contenida en los datos.
+
+### Utilidad de la Estadística Descriptiva
+
+La estadística descriptiva es útil para un analista de datos por varias razones:
+
+- **Resumen de Datos:** Permite resumir grandes conjuntos de datos en medidas clave, como la media (promedio), la mediana, la moda, la varianza y la desviación estándar. Estas medidas proporcionan una visión general de la distribución y tendencias de los datos.
+  
+- **Visualización de Datos:** Facilita la creación de gráficos y visualizaciones que ayudan a representar los datos de manera efectiva. Los gráficos permiten identificar patrones, tendencias y valores atípicos en los datos.
+  
+- **Identificación de Valores Atípicos:** Ayuda a detectar valores atípicos o outliers en los datos, que pueden ser indicativos de errores o eventos inusuales que requieren atención.
+  
+- **Exploración de Relaciones:** Permite explorar relaciones entre variables, como la correlación entre dos conjuntos de datos, lo que ayuda a entender cómo interactúan diferentes factores.
+  
+- **Toma de Decisiones Informadas:** Proporciona información objetiva y basada en datos que respalda la toma de decisiones informadas. Permite evaluar la calidad de los datos y comprender mejor el contexto en el que se recopilaron.
+
+### ¿Por qué aprenderemos estadística descriptiva?
+
+La estadística descriptiva es el lenguaje que nos permite comprender y comunicar la información clave que se encuentra en nuestros datos. Nos ayuda a revelar patrones, tendencias y características importantes, lo que es esencial para tomar decisiones informadas y obtener insights significativos.
+
+### ¿Para qué utilizaremos la estadística descriptiva?
+
+- **Resumen de Datos:** Aprenderemos a resumir grandes conjuntos de datos en medidas clave, como la media, la mediana y la desviación estándar. Estas medidas nos darán una comprensión inicial de la distribución de los datos.
+  
+- **Visualización de Datos:** Exploraremos gráficos y visualizaciones que nos ayudarán a representar datos de manera efectiva. Los gráficos nos permitirán ver patrones y tendencias de un vistazo.
+  
+- **Identificación de Valores Atípicos:** Aprenderemos a identificar valores atípicos o outliers, que pueden tener un impacto significativo en nuestros análisis.
+  
+- **Exploración de Relaciones:** Utilizaremos estadísticas descriptivas para explorar relaciones entre variables, lo que nos permitirá obtener insights más profundos de los datos.
+
+### ¿Qué aprenderemos en esta lección?
+
+- **Medidas Estadísticas Clave:** Exploraremos medidas como la media, la mediana, la moda, la varianza y la desviación estándar, y comprenderemos cuándo y cómo aplicarlas.
+  
+- **Visualización Descriptiva:** Aprenderemos a crear gráficos como histogramas, gráficos de dispersión y box plots para representar datos de manera efectiva.
+  
+- **Identificación de Valores Atípicos:** Desarrollaremos habilidades para detectar y gestionar valores atípicos en nuestros conjuntos de datos.
+  
+- **Análisis de Relaciones:** Exploraremos cómo utilizar estadísticas descriptivas para analizar relaciones entre variables, como la correlación.
 
 ## ⭐ **Medidas de Centralización** ⭐
 
@@ -28,7 +68,9 @@ Responden a la necesidad de entender el punto central o típico en un conjunto d
 - **Moda:** 🥇  
   Es el valor que ocurre con mayor frecuencia en el conjunto de datos. Un conjunto de datos puede tener más de una moda (bimodal o multimodal) si varios valores tienen la misma frecuencia máxima.
 
-  _ _ _
+[Medidas de Centralización - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyter/modulo-3-leccion-08-01-medidas-centralizacion.ipynb)
+
+_ _ _
 
 ## 🔍 **Medidas de Dispersión** 🔍
 
@@ -62,7 +104,9 @@ Responden a la necesidad de entender cómo se distribuyen los datos alrededor de
 - **Desviación estándar:** 📊  
   Es una medida que indica cuánto varían los datos respecto a la media. Una desviación estándar alta significa que los datos están muy dispersos, mientras que una baja indica que están más agrupados cerca de la media. Es la raíz cuadrada de la varianza.
 
-  _ _ _
+[Medidas de Dispersión - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-02-medidas-dispersion.ipynb)
+
+_ _ _
 
 ## 🔗 **Medidas de Correlación** 🔗
 
@@ -130,7 +174,7 @@ En este gráfico, ambas variables aumentan juntas. Un ejemplo podría ser:
 - **Variable X:** Horas de estudio.
 - **Variable Y:** Puntuación en un examen.
 
-![Relación Positiva](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+![Relación Positiva](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 #### ❌ **Relación Negativa** ❌
 
@@ -138,7 +182,7 @@ En este gráfico, una variable aumenta mientras la otra disminuye. Un ejemplo po
 - **Variable X:** Cantidad de cigarrillos fumados por día.
 - **Variable Y:** Capacidad pulmonar.
 
-![Relación Negativa](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+![Relación Negativa](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 #### ⤵ **Relación Débil** ⤵
 
@@ -146,7 +190,7 @@ En este gráfico, no hay una relación clara entre las variables. Un ejemplo pod
 - **Variable X:** Número de zapatos en el armario.
 - **Variable Y:** Tiempo dedicado a ver televisión por día.
 
-![Relación Débil](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+![Relación Débil](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 #### 📏 **Sin Correlación** 📏
 
@@ -154,7 +198,9 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable X:** Tamaño del pie.
 - **Variable Y:** Nivel de inteligencia.
 
-![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/relaciones.png)
+![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
+
+[Medidas de Correlación - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-03-medidas-correlacion.ipynb)
 
 _ _ _
 
@@ -185,7 +231,9 @@ Responden a la necesidad de entender y resumir datos que se clasifican en catego
 - **Moda:** 🥇  
   Es el valor que ocurre con mayor frecuencia en un conjunto de datos. En datos categóricos, la moda es la categoría más común.
 
-  _ _ _
+[Medidas Categóricas - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-04-medidas-categoricas.ipynb)
+
+_ _ _
 
 ## 📊 **Medidas Relativas** 📊
 
@@ -209,9 +257,11 @@ Responden a la necesidad de comparar datos entre sí de manera proporcional. Est
   Dividen un conjunto de datos ordenados en cuatro partes iguales. El primer cuartil (Q1) es el valor que separa el 25% inferior del resto, el segundo cuartil (Q2) es la mediana, y el tercer cuartil (Q3) separa el 75% inferior del 25% superior.
 
 - **Deciles:** 📉  
-  Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de observaciones.
+  Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de las observaciones.
 
-  _ _ _
+[Medidas Relativas - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-05-medidas-relativas.ipynb)
+
+_ _ _
 
 ## 🗺️ **Ejemplo de una Gráfica Tipo Matriz (Heatmap)** 🗺️
 
@@ -296,7 +346,7 @@ En este ejemplo, los datos hipotéticos nos muestran diferentes correlaciones en
 
 ### 🗺️ **Gráfica de Ejemplo** 🗺️
 
-![Heatmap]()
+![Heatmap](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/heatmap.png](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/heatmap.png)
 
 Este heatmap ayuda a visualizar y entender rápidamente las relaciones entre las diferentes variables del conjunto de datos.
 
