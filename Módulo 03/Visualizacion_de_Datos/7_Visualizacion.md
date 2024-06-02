@@ -1,4 +1,4 @@
-# 📊 **VISUALIZACIÓN** 📊
+# 👾 **VISUALIZACIÓN** 👾
 
 _ _ _
 
@@ -121,7 +121,7 @@ Vamos a plantear algunas preguntas que nos van a ayudar a decidir qué tipo de g
 
 Estas son solo algunas de las preguntas que podríamos contestar, pero siéntete libre de probar con otras variables numéricas y ver cómo se verían sus gráficas para seguir aprendiendo.
 
-(https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Visualizacion_de_Datos/Jupyters/modulo-3-leccion-07-01-analisis-variables-numericas.ipynb)
+[Jupyter Notebook Numéricas](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Visualizacion_de_Datos/Jupyters/modulo-3-leccion-07-01-analisis-variables-numericas.ipynb)
 _ _ _
 
 ### **Histograma o histplot** 📊
@@ -339,7 +339,7 @@ plt.pie(valores, labels=etiquetas, autopct='%1.1f%%', startangle=90, colors=colo
 
 Esto lo podremos conseguir haciendo un `groupby`. Como en el caso del countplot, vamos a empezar contestando la siguiente pregunta:
 
-(https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Visualizacion_de_Datos/Jupyters/modulo-3-leccion-07-02-analisis-variables-categoricas.ipynb)
+[Jupyter Notebook Categóricas](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Visualizacion_de_Datos/Jupyters/modulo-3-leccion-07-02-analisis-variables-categoricas.ipynb)
 _ _ _
 
 ## 📉 **Análisis de la Relación entre Variables Numéricas y Categóricas** 📉
