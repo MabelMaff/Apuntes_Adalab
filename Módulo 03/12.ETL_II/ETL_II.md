@@ -1,5 +1,7 @@
 # 🎼 Creación de Esquemas y BBDD para Datos de Spotify
 
+![Spotify](https://raw.githubusercontent.com/MabelMaff/Apuntes_Adalab/main/M%C3%B3dulo%2003/12.ETL_II/Imagenes/ETL_II.webp)
+
 ## 🌟 Introducción
 Para continuar con nuestro aprendizaje, es crucial tener el proyecto de la clase anterior, donde extrajimos información de la API de Spotify. En esta sesión, aprenderemos cómo almacenar esos datos de forma estructurada usando MySQL.
 
