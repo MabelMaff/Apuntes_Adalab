@@ -66,7 +66,7 @@ python main.py
 ```
 
 ### 🔗 Conexión con el API de Spotify:
-- **Video 3:** Mira cómo [Conectarse con API Spotify](https://www.youtube.com/watch?v=7vftn1yxYRQ).
+- **Video 3:** Mira cómo [Conectarse con el API de SPOTIFY](https://www.youtube.com/watch?v=7vftn1yxYRQ)
 - **Código para obtener el token y conectar con Spotify:**
 ```python
 # api_spotify_soporte.py
@@ -124,7 +124,7 @@ Reemplaza `/ruta/a/tu/python` con la ruta actual a la instalación de Python que
 
 ## 🎶 ETL sobre Spotify:
 ### **Extraer canciones:**
-- **Video 4:** [Cómo extraer canciones](https://www.youtube.com/watch?v=KjFtm3Jrr_A)
+- **Video 4:** [Conectar ficheros del proyecto](https://www.youtube.com/watch?v=Kya3Hfey924)
 - **Código para extraer canciones de una playlist:**
 ```python
 def extraer_canciones(conexion, playlist_URI):
@@ -139,7 +139,8 @@ def extraer_canciones(conexion, playlist_URI):
 ```
 
 ### **Limpiar datos de canciones:**
-- **Video 5:** [Cómo limpiar datos de canciones](https://www.youtube.com/watch?v=DKBi5AuzhYk)
+- **Video 5:** [Extraer canciones de una lista de reproducción](https://www.youtube.com/watch?v=KjFtm3Jrr_A&t=3s)
+- **Video 6:** [Extraer información específica de una canción](https://www.youtube.com/watch?v=DKBi5AuzhYk&t=135s)
 - **Código para limpiar y organizar datos de canciones:**
 ```python
 def limpiar_datos(all_data):
@@ -165,7 +166,7 @@ def limpiar_datos(all_data):
 ```
 
 ### **Extraer 'features' de una canción:**
-- **Video 6:** [Extracción de 'features' de canciones](https://www.youtube.com/watch?v=OoxQ4bH-Oyw)
+- **Video 7:** [Extracción de 'features' de canciones](https://www.youtube.com/watch?v=OoxQ4bH-Oyw)
 - **Código para extraer características y fusionarlas con datos básicos:**
 ```python
 def sacar_caracteristicas(dataframe_canciones, conexion):
