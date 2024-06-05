@@ -1,46 +1,45 @@
 # 🌟 ETL I: Extracción, Transformación y Carga
 
-![ETL](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Imagenes/ETL_I.webp)
+![ETL Process](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Imagenes/ETL_I.webp)
 
 ## 🧐 ¿Qué es ETL?
-ETL significa "Extracción, Transformación y Carga" (Extraction, Transformation, and Loading). Este proceso es fundamental en el análisis y gestión de datos.
+ETL significa "Extracción, Transformación y Carga" (Extraction, Transformation, and Loading). Este proceso es esencial en el análisis y la gestión de datos, facilitando la consolidación, limpieza, transformación y carga de datos en sistemas de análisis.
 
 ### 🔍 Extracción
-Recopilamos datos de múltiples fuentes como bases de datos, archivos, sistemas en línea, y APIs. Los datos se preparan para ser procesados en su formato original.
+Recogemos datos de fuentes diversas como bases de datos, archivos, sistemas en línea y APIs. Estos datos se preparan en su formato original para el siguiente paso.
 
 ### 🔧 Transformación
-Los datos se limpian, reorganizan, y manipulan para hacerlos aptos para análisis. Incluye convertir datos de un formato a otro y aplicar reglas de negocio.
+Aquí los datos se limpian, organizan y transforman. Incluye convertir datos de un formato a otro y aplicar reglas de negocio para hacer los datos útiles y coherentes.
 
 ### 📦 Carga
-Los datos preparados se almacenan en una base de datos destinada al análisis, incluyendo la creación de tablas y actualización de registros.
+Finalmente, los datos transformados se almacenan en una base de datos de análisis, donde se crean y actualizan tablas.
 
 ## ✨ Importancia del ETL
-- **Consolidación de datos:** Unifica datos dispersos en un solo lugar.
-- **Limpieza y preparación:** Automatiza la limpieza de datos crudos.
+- **Consolidación de datos:** Unifica datos de múltiples fuentes en un solo lugar.
+- **Limpieza y preparación:** Automatiza la limpieza y preparación de datos crudos.
 - **Transformación y enriquecimiento:** Adapta y enriquece los datos para análisis.
-- **Mantenimiento de la calidad:** Aplica reglas de validación y corrección.
-- **Automatización:** Reduce tiempo y errores en la gestión de datos.
-- **Escalabilidad:** Adapta el proceso a grandes volúmenes de datos.
+- **Mantenimiento de la calidad:** Implementa reglas de validación y corrección.
+- **Automatización y eficiencia:** Reduce tiempo y errores en la gestión de datos.
+- **Escalabilidad:** Adapta el proceso a grandes volúmenes de datos según las necesidades organizativas.
 
 ## 📈 Por qué el ETL es importante
-- **Toma de decisiones informadas:** Los datos están disponibles y listos para análisis.
-- **Eficiencia:** Ahorra tiempo y recursos.
-- **Consistencia:** Mejora la calidad de informes y análisis.
-- **Historial de datos:** Permite análisis de tendencias.
-- **Integración:** Combina datos de diferentes fuentes.
+- **Toma de decisiones informadas:** Facilita el acceso a datos listos para análisis.
+- **Eficiencia en el proceso:** Ahorra recursos y mejora la productividad.
+- **Consistencia y calidad:** Garantiza datos consistentes y de alta calidad.
+- **Historial de datos:** Permite el análisis de tendencias a lo largo del tiempo.
+- **Integración de sistemas:** Facilita la unión de datos de diversas fuentes.
 
 # 🎵 Caso Práctico: ETL Spotify
 
 ## 🚀 Crear proyecto de Spotify
-Utilizaremos el API de Spotify para aplicar el proceso de ETL.
+Usaremos el API de Spotify para demostrar el proceso de ETL.
 
 ### 📘 Documentación necesaria:
 - **Spotipy:** [Documentación de Spotipy](https://spotipy.readthedocs.io/en/2.22.1/)
 - **Token de Spotify:** [Cómo crear un token](https://developer.spotify.com/)
 
 ### 🎥 Videos explicativos:
-
-- **Video 1:**[Introducción al API de Spotify](https://www.youtube.com/watch?v=rf8y-Heq8Wo)
+- **Video 1:** [Introducción al API de Spotify](https://www.youtube.com/watch?v=rf8y-Heq8Wo)
 - **Video 2:** [Configuración del proyecto](https://www.youtube.com/watch?v=BOerjavSMh4)
 
 ### 🔧 Configuración del proyecto:
@@ -77,7 +76,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-CLIENT_ID = os.getenv("client_id")
+CLIENT_ID = os.getenv("
+
+client_id")
 CLIENT_SECRET = os.getenv("client_secret")
 
 def credenciales():
@@ -94,8 +95,6 @@ sp = credenciales()
 - **Video 5:** [Cómo extraer canciones](https://www.youtube.com/watch?v=KjFtm3Jrr_A)
 - **Código para extraer canciones de una playlist:**
 ```python
-
-
 def extraer_canciones(conexion, playlist_URI):
     numero_canciones = conexion.playlist_tracks(playlist_URI, limit=1)["total"]
     offset = 0
@@ -147,7 +146,9 @@ def sacar_caracteristicas(dataframe_canciones, conexion):
     final = dataframe_canciones.merge(df_features, left_on="uri_cancion", right_on="uri", how="inner")
     return final
 ```
-### **Jupyter Notebooks**
 
-https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/modulo-3-leccion-11-ETL-main.py
-https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/api_spotify_soporte.py
+### **Jupyter Notebooks**
+- [modulo-3-leccion-11-ETL-main.py](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/modulo-3-leccion-11-ETL-main.py)
+- [api_spotify_soporte.py](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/api_spotify_soporte.py)
+```
+
