@@ -217,7 +217,7 @@ En este gráfico, ambas variables aumentan juntas. Un ejemplo podría ser:
 - **Variable X:** Horas de estudio.
 - **Variable Y:** Puntuación en un examen.
 
-![Relación Positiva](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
+![Relación Positiva]()
 
 #### ❌ **Relación Negativa** ❌
 
@@ -225,7 +225,7 @@ En este gráfico, una variable aumenta mientras la otra disminuye. Un ejemplo po
 - **Variable X:** Cantidad de cigarrillos fumados por día.
 - **Variable Y:** Capacidad pulmonar.
 
-![Relación Negativa](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
+![Relación Negativa](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/8.Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 #### ⤵ **Relación Débil** ⤵
 
@@ -233,7 +233,7 @@ En este gráfico, no hay una relación clara entre las variables. Un ejemplo pod
 - **Variable X:** Número de zapatos en el armario.
 - **Variable Y:** Tiempo dedicado a ver televisión por día.
 
-![Relación Débil](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
+![Relación Débil](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/8.Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 #### 📏 **Sin Correlación** 📏
 
@@ -241,7 +241,7 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 - **Variable X:** Tamaño del pie.
 - **Variable Y:** Nivel de inteligencia.
 
-![Sin Correlación](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/relaciones.png)
+![Sin Correlación]https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/8.Estadistica_Descriptiva/Imagenes/relaciones.png)
 
 [Medidas de Correlación - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-03-medidas-correlacion.ipynb)
 
@@ -477,7 +477,7 @@ En este ejemplo, los datos hipotéticos nos muestran diferentes correlaciones en
 
 ### 🗺️ **Gráfica de Ejemplo** 🗺️
 
-![Heatmap](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/heatmap.png)
+![Heatmap](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/8.Estadistica_Descriptiva/Imagenes/heatmap.png)
 
 
 
