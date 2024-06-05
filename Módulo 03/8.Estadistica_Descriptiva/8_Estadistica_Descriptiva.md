@@ -44,6 +44,8 @@ La estadística descriptiva es el lenguaje que nos permite comprender y comunica
   
 - **Análisis de Relaciones:** Exploraremos cómo utilizar estadísticas descriptivas para analizar relaciones entre variables, como la correlación.
 
+---
+
 ## ⭐ **Medidas de Centralización** ⭐
 
 Responden a la necesidad de entender el punto central o típico en un conjunto de datos. Estas medidas permiten identificar el valor alrededor del cual los datos tienden a agruparse. Aquí están las principales preguntas que responden las medidas de centralización:
@@ -70,6 +72,26 @@ Responden a la necesidad de entender el punto central o típico en un conjunto d
 
 [Medidas de Centralización - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-01-medidas-centralizacion.ipynb)
 
+```python
+import numpy as np
+import pandas as pd
+
+# Datos de ejemplo
+data = [10, 20, 20, 20, 30, 40, 50, 60]
+
+# Media
+media = np.mean(data)
+print(f"Media: {media}")
+
+# Mediana
+mediana = np.median(data)
+print(f"Mediana: {mediana}")
+
+# Moda
+moda = pd.Series(data).mode()[0]
+print(f"Moda: {moda}")
+```
+
 _ _ _
 
 ## 🔍 **Medidas de Dispersión** 🔍
@@ -77,7 +99,9 @@ _ _ _
 Responden a la necesidad de entender cómo se distribuyen los datos alrededor de un valor central (como la media) en un conjunto de datos. En otras palabras, nos dicen qué tan extendidos o agrupados están los datos. Aquí están las principales preguntas que responden las medidas de dispersión:
 
 1. **¿Qué tan lejos están los datos entre sí?** 📏  
-   Las medidas de dispersión indican la extensión total de los datos, mostrando si los datos están muy separados (dispersos) o muy cercanos entre sí.
+   Las medidas de dispersión indican la extensión total
+
+de los datos, mostrando si los datos están muy separados (dispersos) o muy cercanos entre sí.
    
 2. **¿Cómo se distribuyen los datos respecto a la media?** 📊  
    Ayudan a comprender la variabilidad de los datos en relación con la media, revelando si los datos están muy dispersos alrededor de la media o si están más concentrados cerca de ella.
@@ -105,6 +129,25 @@ Responden a la necesidad de entender cómo se distribuyen los datos alrededor de
   Es una medida que indica cuánto varían los datos respecto a la media. Una desviación estándar alta significa que los datos están muy dispersos, mientras que una baja indica que están más agrupados cerca de la media. Es la raíz cuadrada de la varianza.
 
 [Medidas de Dispersión - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-02-medidas-dispersion.ipynb)
+
+```python
+import numpy as np
+
+# Datos de ejemplo
+data = [10, 20, 20, 20, 30, 40, 50, 60]
+
+# Rango
+rango = np.ptp(data)
+print(f"Rango: {rango}")
+
+# Varianza
+varianza = np.var(data, ddof=1)
+print(f"Varianza: {varianza}")
+
+# Desviación estándar
+desviacion_estandar = np.std(data, ddof=1)
+print(f"Desviación Estándar: {desviacion_estandar}")
+```
 
 _ _ _
 
@@ -202,6 +245,37 @@ En este gráfico, no hay una relación significativa entre las variables. Un eje
 
 [Medidas de Correlación - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-03-medidas-correlacion.ipynb)
 
+```python
+import pandas as pd
+import numpy as np
+
+# Datos de ejemplo
+data = {
+    'Variable_A': [1, 2, 3, 4, 5],
+    'Variable_B': [5, 4, 3, 2, 1],
+    'Variable_C': [2, 3, 4, 5, 6],
+    'Variable_D': [6, 5, 4
+
+, 3, 2]
+}
+df = pd.DataFrame(data)
+
+# Coeficiente de correlación de Pearson
+pearson_corr = df.corr()
+print("Coeficiente de Correlación de Pearson:")
+print(pearson_corr)
+
+# Coeficiente de correlación de Spearman
+spearman_corr = df.corr(method='spearman')
+print("\nCoeficiente de Correlación de Spearman:")
+print(spearman_corr)
+
+# Coeficiente de correlación de Kendall
+kendall_corr = df.corr(method='kendall')
+print("\nCoeficiente de Correlación de Kendall:")
+print(kendall_corr)
+```
+
 _ _ _
 
 ## 🏷️ **Medidas Categóricas** 🏷️
@@ -233,6 +307,40 @@ Responden a la necesidad de entender y resumir datos que se clasifican en catego
 
 [Medidas Categóricas - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-04-medidas-categoricas.ipynb)
 
+```python
+import pandas as pd
+
+# Datos de ejemplo
+data = {
+    'Categoria': ['A', 'B', 'A', 'C', 'B', 'A', 'D', 'C', 'B', 'B']
+}
+df = pd.DataFrame(data)
+
+# Frecuencia Absoluta
+frecuencia_absoluta = df['Categoria'].value_counts()
+print("Frecuencia Absoluta:")
+print(frecuencia_absoluta)
+
+# Frecuencia Relativa
+frecuencia_relativa = df['Categoria'].value_counts(normalize=True)
+print("\nFrecuencia Relativa:")
+print(frecuencia_relativa)
+
+# Moda
+moda = df['Categoria'].mode()[0]
+print(f"\nModa: {moda}")
+
+# Tabla de Frecuencias Cruzadas
+data2 = {
+    'Categoria_1': ['A', 'B', 'A', 'C', 'B', 'A', 'D', 'C', 'B', 'B'],
+    'Categoria_2': ['X', 'Y', 'X', 'Z', 'Y', 'X', 'Z', 'Y', 'X', 'Y']
+}
+df2 = pd.DataFrame(data2)
+tabla_cruzada = pd.crosstab(df2['Categoria_1'], df2['Categoria_2'])
+print("\nTabla de Frecuencias Cruzadas:")
+print(tabla_cruzada)
+```
+
 _ _ _
 
 ## 📊 **Medidas Relativas** 📊
@@ -260,6 +368,27 @@ Responden a la necesidad de comparar datos entre sí de manera proporcional. Est
   Dividen un conjunto de datos ordenados en diez partes iguales. Cada decil indica el valor por debajo del cual se encuentra un cierto 10% de las observaciones.
 
 [Medidas Relativas - Jupyter Notebook](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Jupyters/modulo-3-leccion-08-05-medidas-relativas.ipynb)
+
+```python
+import numpy as np
+
+# Datos de ejemplo
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Percentiles
+percentiles = np.percentile(data, [25, 50, 75])
+print(f"Percentiles (25, 50, 75): {percentiles}")
+
+# Cuartiles
+q1 = np.percentile(data, 25)
+q2 = np.percentile(data, 50)
+q3 = np.percentile(data, 75)
+print(f"Cuartiles (Q1, Q2, Q3): {q1}, {q2}, {q3}")
+
+# Deciles
+deciles = np.percentile(data, [i * 10 for i in range(1, 10)])
+print(f"Deciles (10%, 20%, ..., 90%): {deciles}")
+```
 
 _ _ _
 
@@ -316,7 +445,9 @@ plt.show()
    Utilizamos `df.corr()` para calcular la matriz de correlación entre las variables del DataFrame.
 
 4. **Crear el heatmap:** 🌡️  
-   Utilizamos `sns.heatmap()` para crear el heatmap basado en la matriz de correlación. Los parámetros incluyen:
+   Utilizamos `sns.heatmap
+
+()` para crear el heatmap basado en la matriz de correlación. Los parámetros incluyen:
    - `corr_matrix`: La matriz de correlación calculada.
    - `annot=True`: Añade los valores numéricos de correlación en cada celda.
    - `cmap='coolwarm'`: Define el mapa de colores para el heatmap.
@@ -347,8 +478,6 @@ En este ejemplo, los datos hipotéticos nos muestran diferentes correlaciones en
 ### 🗺️ **Gráfica de Ejemplo** 🗺️
 
 ![Heatmap](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/Estadistica_Descriptiva/Imagenes/heatmap.png)
-
-Este heatmap ayuda a visualizar y entender rápidamente las relaciones entre las diferentes variables del conjunto de datos.
 
 
 
