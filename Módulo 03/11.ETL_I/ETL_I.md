@@ -66,29 +66,58 @@ python main.py
 ```
 
 ### 🔗 Conexión con el API de Spotify:
-- **Video 3:** [Conexión con API Spotify](https://www.youtube.com/watch?v=7vftn1yxYRQ)
+- **Video 3:** Mira cómo [Conectarse con API Spotify](https://www.youtube.com/watch?v=7vftn1yxYRQ).
 - **Código para obtener el token y conectar con Spotify:**
 ```python
 # api_spotify_soporte.py
+import os
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-import os
 from dotenv import load_dotenv
 
+# Cargar variables de entorno
 load_dotenv()
-CLIENT_ID = os.getenv("
-
-client_id")
+CLIENT_ID = os.getenv("client_id")
 CLIENT_SECRET = os.getenv("client_secret")
 
+# Verificar que las variables de entorno se han cargado correctamente
+print("Contenido del archivo .env:")
+with open('.env', 'r') as f:
+    print(f.read())
+print(f"CLIENT_ID: {CLIENT_ID}")
+print(f"CLIENT_SECRET: {CLIENT_SECRET}")
+
+# Si las variables de entorno no se cargaron correctamente, cargar manualmente
+if CLIENT_ID is None or CLIENT_SECRET is None:
+    from dotenv import dotenv_values
+    config = dotenv_values(".env")
+    CLIENT_ID = config.get("client_id")
+    CLIENT_SECRET = config.get("client_secret")
+    print("Carga manual:")
+    print(f"CLIENT_ID: {CLIENT_ID}")
+    print(f"CLIENT_SECRET: {CLIENT_SECRET}")
+
 def credenciales():
+    # Configurar las credenciales con los valores cargados
     credenciales = SpotifyClientCredentials(CLIENT_ID, CLIENT_SECRET)
     sp = spotipy.Spotify(client_credentials_manager=credenciales)
     return sp
 
 # Uso de la función para establecer conexión
 sp = credenciales()
+
+### Ajuste del Path de Python
+
+Si Python no se ejecuta correctamente desde tu entorno deseado, puedes ajustar el path para asegurarte de que el sistema utiliza la versión correcta de Python:
+
+```markdown
+Si tienes problemas para ejecutar Python o si los scripts no reconocen tu instalación de Python, asegúrate de ajustar el path del sistema para incluir el directorio donde Python está instalado. Esto es especialmente útil si tienes múltiples versiones de Python instaladas o si tu sistema operativo no está configurado para usar la versión deseada por defecto:
+
+```bash
+export PATH="/ruta/a/tu/python:$PATH"
 ```
+
+Reemplaza `/ruta/a/tu/python` con la ruta actual a la instalación de Python que deseas utilizar. Este paso es crucial para asegurar que los comandos y scripts de Python se ejecuten con la configuración correcta.
 
 ## 🎶 ETL sobre Spotify:
 ### **Extraer canciones:**
