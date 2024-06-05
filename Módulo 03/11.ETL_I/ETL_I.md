@@ -105,7 +105,7 @@ def credenciales():
 
 # Uso de la función para establecer conexión
 sp = credenciales()
-
+```
 ### Ajuste del Path de Python
 
 Si Python no se ejecuta correctamente desde tu entorno deseado, puedes ajustar el path para asegurarte de que el sistema utiliza la versión correcta de Python:
