@@ -150,5 +150,3 @@ def sacar_caracteristicas(dataframe_canciones, conexion):
 ### **Jupyter Notebooks**
 - [modulo-3-leccion-11-ETL-main.py](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/modulo-3-leccion-11-ETL-main.py)
 - [api_spotify_soporte.py](https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Jupyters/api_spotify_soporte.py)
-```
-
