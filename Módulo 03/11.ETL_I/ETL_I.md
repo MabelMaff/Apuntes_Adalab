@@ -89,7 +89,7 @@ print(f"CLIENT_SECRET: {CLIENT_SECRET}")
 
 ```
 
-# Si las variables de entorno no se cargaron correctamente, cargar manualmente
+###‼ Si las variables de entorno no se cargaron correctamente, cargar manualmente
 ```
 if CLIENT_ID is None or CLIENT_SECRET is None:
     from dotenv import dotenv_values
@@ -109,7 +109,7 @@ def credenciales():
 # Uso de la función para establecer conexión
 sp = credenciales()
 ```
-### Ajuste del Path de Python
+### ‼ Ajuste del Path de Python
 
 Si Python no se ejecuta correctamente desde tu entorno deseado, puedes ajustar el path para asegurarte de que el sistema utiliza la versión correcta de Python:
 
