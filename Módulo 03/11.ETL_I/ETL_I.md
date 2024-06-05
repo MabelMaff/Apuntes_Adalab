@@ -87,7 +87,10 @@ with open('.env', 'r') as f:
 print(f"CLIENT_ID: {CLIENT_ID}")
 print(f"CLIENT_SECRET: {CLIENT_SECRET}")
 
+```
+
 # Si las variables de entorno no se cargaron correctamente, cargar manualmente
+```
 if CLIENT_ID is None or CLIENT_SECRET is None:
     from dotenv import dotenv_values
     config = dotenv_values(".env")
