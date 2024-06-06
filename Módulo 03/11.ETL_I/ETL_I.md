@@ -36,7 +36,7 @@ Usaremos el API de Spotify para demostrar el proceso de ETL.
 
 ### 📘 Documentación necesaria:
 - **Spotipy:** [Documentación de Spotipy](https://spotipy.readthedocs.io/en/2.22.1/)
-- **Token de Spotify:** [Cómo crear un token](https://developer.spotify.com/)
+- **Token de Spotify:** [Cómo crear un token](https://developer.spotify.com/documentation/web-api)
 
 ### 🎥 Videos explicativos:
 - **Video 1:** [Introducción al API de Spotify](https://www.youtube.com/watch?v=rf8y-Heq8Wo) / (Transcripción Vídeo)[https://github.com/MabelMaff/Apuntes_Adalab/blob/main/M%C3%B3dulo%2003/11.ETL_I/Transcripciones_Videos/Video01.md]
