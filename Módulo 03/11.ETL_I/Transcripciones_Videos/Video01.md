@@ -37,7 +37,7 @@ En este caso práctico, vamos a utilizar la API de Spotify para extraer datos de
 ### Pasos del caso práctico
 
 **1. Obtener un token de la API de Spotify:**
-
+(URL Documentación Spotify)[https://developer.spotify.com/documentation/web-api]
 * Nos registramos en la plataforma de desarrolladores de Spotify y creamos una nueva aplicación.
 * Obtenemos el ID de cliente y el secreto de cliente de nuestra aplicación.
 * Utilizamos el ID de cliente y el secreto de cliente para obtener un token de acceso.
